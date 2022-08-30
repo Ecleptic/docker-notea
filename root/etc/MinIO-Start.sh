@@ -5,4 +5,4 @@ export MINIO_ROOT_PASSWORD=$STORE_PASSWORD
 
 mkdir -p /data/notea
 
-/opt/bin/minio server /data
+minio server /data
